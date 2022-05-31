@@ -1,7 +1,7 @@
 
 
 #avatar{
-    width: 30%;
+    width: 25%;
 }
 
 img{
@@ -16,6 +16,46 @@ img{
     font-size: 18px;
 }
 
-footer{
+.ms-star::after, .ms-star::before{
+    content: "";
+    display: inline-block;
+    width:10%;
+    height: 4px;
+    background-color:#fff;
+    border-radius: 4px;
+    vertical-align: middle;
+}
 
+
+
+.ms-star.bi-star-fill{
+    width: 5%;
+    display: inline-block;
+}
+
+.ms-star{
+    font-size: 30px;
+    color: #fff;
+}
+
+.ms-star-black::after, .ms-star-black::before{
+    content: "";
+    display: inline-block;
+    width:10%;
+    height: 4px;
+    background-color:black;
+    border-radius: 4px;
+    vertical-align: middle;
+}
+
+
+
+.ms-star-black.bi-star-fill{
+    width: 5%;
+    display: inline-block;
+}
+
+.ms-star-black{
+    font-size: 30px;
+    color: black;
 }
