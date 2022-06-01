@@ -59,3 +59,7 @@ img{
     font-size: 30px;
     color: black;
 }
+
+.form-control {
+    border: 0;
+}
